@@ -5,25 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.4.3] - 2020-12-16
 
-## Added
-- add troubleshooting guide 
-- create server image tagged with branch or tag automatically
-
-## Changed
-- serve veloren locally (removes s3 support) #147 
-
-## Fixed
-- Gitlab Pipeline Event model
-- CI not running on forks
-- quote paths in msiexec call
-- validate response status before download
-- only use one rustfmt.toml
-- leave one artifact per os on prune
-- reduced minimum window size
-- check status of webhook response
-
+- Repository has been moved over to the Veloren organisation.
 
 ## [0.4.2] - 2020-12-16
 
@@ -124,3 +108,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.4.0]: https://github.com/Songtronix/Airshipper/releases/tag/v0.4.0
 [0.4.1]: https://github.com/Songtronix/Airshipper/releases/tag/v0.4.1
 [0.4.2]: https://github.com/Songtronix/Airshipper/releases/tag/v0.4.2
+[0.4.3]: https://github.com/Songtronix/Airshipper/releases/tag/v0.4.3
